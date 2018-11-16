@@ -1,0 +1,194 @@
+
+* {
+  font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.todo {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 2fr 6fr 2fr;
+}
+
+.header {
+  display: flex;
+}
+
+.question {
+ flex: 7;
+ color: black;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: darkorchid;
+}
+
+.normal {
+  border-color: white;
+}
+
+.acertoouu {
+  background-color: green;
+}
+
+
+.question-text {
+  font-weight: lighter;
+  padding-left: 7%;
+  font-size: 2.125rem;
+  padding-left: 10%;
+}
+
+.placar {
+  flex: 3;
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+
+.acertos {
+  flex: 1;
+}
+
+.erros {
+  flex: 1;
+}
+
+.score-title {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.placar-text {
+  font-size: 3.75rem;
+}
+
+.meio{
+  display: flex;
+}
+
+.respostas {
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #eee;
+}
+
+.resposta {
+  flex: 1;
+  flex-direction: row;
+  cursor: pointer;
+  border-top: 2px solid #eee;
+
+}
+
+.numero {
+  flex: 1;
+}
+
+.certa {
+  background-color: #0864BF;
+  color: white;    
+}
+
+.resposta-text {
+  font-size:  1.625rem;
+  flex: 1;
+  padding-left: 10%;
+}
+
+.canto {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.canto-top {
+  flex: 8;
+  border-bottom: 1px solid #eee;
+  background-image: url("");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.buttons{ 
+  flex: 1;
+  display: flex;
+  cursor: pointer;
+}
+
+.buttons > p {
+  margin: auto;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.confirmar {
+  background-color: aliceblue;
+  border-right: 1px solid #eee;
+}
+
+.canto-bottom {
+  flex: 2;
+  display: flex;
+}
+
+.score-title-text-acertos {
+  text-align: center;
+  font-size: 3rem;
+  color: lightgreen;
+
+}
+
+.score-title-text-erros {
+  text-align: center;  
+  font-size: 3rem;  
+  color: coral;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  border-top: 2px solid #eee;
+}
+
+.ano {
+  flex: 1;
+}
+
+.ano-text {
+  font-weight: bold;
+  font-size: 3.75rem;
+  text-align: center;
+
+}
+
+.selected-ano {
+ background-color:#344D4B;
+ color :white
+}
+
+.result{ 
+  flex: 1;
+  display: none;
+    cursor:default;
+}
+
+.result > p {
+  margin: auto;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
