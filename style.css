@@ -8,12 +8,50 @@ body, html {
   height: 100%;
   width: 100%;
   margin: 0;
+  background-image: url(images/notas.jpg);
+  background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.escolhaQuiz {
+    width: 40%;
+    height: 40%;
+    position: relative;
+    left: 30%;
+    top: 30%;
+    background-color: #87CEFA;
+    border-radius: 50px;
+}
+.escolhaQuiz > p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.botao{ 
+    left: 10%;
+    width: 40%;
+    height: 40%;
+    background-color: #F8F8FF;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family:serif;
+    font-family: 'Faster One', cursive;
+}
+
+.botao > p {
+  margin: auto;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+    text-align: center;
 }
 
 .todo {
   height: 100%;
   width: 100%;
   display: grid;
+  display: none;
   grid-template-rows: 2fr 6fr 2fr;
 }
 
@@ -113,7 +151,6 @@ body, html {
   border-bottom: 1px solid #eee;
   background-image: url("");
   height: 100%;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

@@ -9,10 +9,16 @@
 
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet"> 
   <title>My music</title>
 </head>
 
-<body>
+<body class="fundo">
+  <div class="escolhaQuiz">
+      <p>Escolha uma categoria de músicas para iniciar o quiz</p>
+      <button class="botao" style="margin-left: 3%" onclick="carregarTeste(1)">Internacionais</button>
+      <button class="botao" style="margin-right: 3%; float: right;" onclick="carregarTeste(2)">Nacionais</button>
+  </div>
   <div class="todo">
     <div class="header">
       <div class="question">
@@ -51,10 +57,10 @@
             <p >Confirmar</p>
           </div>
           <div class="buttons" onclick="pular()">
-            <p>Próxima</p>
+            <p id="btnProxima">Pular</p>
           </div>
-          <div class="result">
-            <p >Confira seu resultado</p>
+          <div id="btnReiniciar" class="buttons" onclick="refazerTeste()">
+            <p>Reiniciar Teste</p>
           </div>
         </div>
       </div>
@@ -77,8 +83,7 @@
       </div>
       <div id="ano5" class="ano">
         <p class="ano-text">10's</p>
-      </div>
-     
+      </div> 
     </div>
   </div>
   
