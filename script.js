@@ -40,7 +40,7 @@ const perguntas = [
 
 const perguntasNacionais = [
   {
-    pergunta: 'Iniciou sua carreira musical na banda "Os Mutantes", entretando ficou conhecida nacionalmente na banda "Tutti-Frutty" após o lançamento do single "Agora Só Falta Você". É considerada a rainha do rock nacional.',
+    pergunta: 'Iniciou sua carreira musical na banda "Os Mutantes", entretanto ficou conhecida nacionalmente na banda "Tutti-Frutty" após o lançamento do single "Agora Só Falta Você". É considerada a rainha do rock nacional.',
     respostas: ['Rita Lee', 'Pitty', 'Clara Nunes', 'Fafá de Belém'],
     correta: 0,
     img: "images/rita.jpg"
@@ -52,7 +52,7 @@ const perguntasNacionais = [
     img: "images/elis.jpg"
   },
   {
-    pergunta: 'Quantro estudantes de Arquitetura decidiram formar uma banda, seu nome é uma sátira aos estudantes de engenharia, que andavam com bermudas de surfista. Essa banda ficou conhecida como:',
+    pergunta: 'Quatro estudantes de Arquitetura decidiram formar uma banda, seu nome é uma sátira aos estudantes de engenharia, que andavam com bermudas de surfista. Essa banda ficou conhecida como:',
     respostas: ['14 Bis', 'Oficina G3', 'Nenhum de Nós', 'Engenheiros do Hawaii'],
     correta: 3,
     img: "images/engenheiros.jpg"
